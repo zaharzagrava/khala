@@ -1,0 +1,470 @@
+# 00 [to, in order to, goal, purpose]
+# https://dictionary.cambridge.org/dictionary/english/goal
+# https://dictionary.cambridge.org/dictionary/english/purpose
+to: future system state that was inside someones brain
+
+# 01 [to, into, in, location, on, position]
+in:
+
+# 02 [element, composant, component, module, item, unit]
+# https://stackoverflow.com/questions/31427117/difference-between-element-item-and-entry-when-it-comes-to-programming
+# https://dictionary.cambridge.org/dictionary/english/item
+# https://dictionary.cambridge.org/dictionary/english/unit
+element:
+
+# 03 [of, piece, part, section, segment, constituent, aspect]
+# https://dictionary.cambridge.org/dictionary/english/aspect
+part:
+
+# 04 [is, be, was, what, are]
+be:
+
+# 05 [know]
+know:
+
+# 06
+# english [target, from, for]
+target:
+
+# 07 [longevity]
+longevity:
+
+# 08 [not, no]
+not:
+
+# 09 [have, has, had]
+have():
+
+# 10 [do]
+do:
+
+# 11 [only, just]
+only:
+
+# 12 [recently, just]
+recently:
+
+# 13 [reason, why, because, cause]
+why: past system state that led to something
+
+# 14 [well]
+well:
+
+# 15 [about, theme]
+theme:
+
+# 16 [direction]
+direction:
+
+# 17 [correct, yeah, yes, true, truth, fact]
+true:
+
+# 18 [get, obtain]
+get(what, from, to):
+  to.what <-- from.what:
+
+# 19 [intend]
+intend():
+
+# 20 [similar]
+similar:
+
+# 21 [enjoy]
+enjoy():
+
+# 22 [example]
+example:
+
+# 23 [can]
+can():
+
+# 24 [want]
+want():
+
+# 25 [think]
+think():
+
+# 27 [when, now, time, date]
+datetime:
+
+# 27 [go, move, come]
+# https://dictionary.cambridge.org/dictionary/english/move
+# https://dictionary.cambridge.org/dictionary/english/go
+# https://dictionary.cambridge.org/dictionary/english/come
+go():
+
+# 28
+# https://www.google.com/amp/s/learningenglish.voanews.com/amp/do-you-know-the-differences-between-look-watch-and-see/4880198.html
+# https://dictionary.cambridge.org/dictionary/english/look?q=Look
+# https://dictionary.cambridge.org/dictionary/english/see?q=See
+see():
+
+# 29 [look]
+look():
+
+# 30 [will]
+will():
+
+# 31 [will]
+agree():
+
+# 32 [will]
+mean():
+
+# 33 [will]
+tell():
+
+# 34 [fraction, how much]
+fraction:
+
+# 35 [as, equivalent]
+equivalent:
+
+# 36 [probability, really, chance]
+probability:
+
+# 37 [back]
+back:
+
+# 38
+hide(from, whom):
+
+# 39 [greet, hello]
+hello():
+
+# 40 [take]
+take:
+
+say:
+
+# 40 [way]
+way:
+
+# https://dictionary.cambridge.org/ru/%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D1%8C/%D0%B0%D0%BD%D0%B3%D0%BB%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D0%B9/way
+
+inform(what, to):
+  to.data += what:
+
+data-processing-tool:
+  tool ability data-processing:
+  data: todefine
+
+implement: implement the design
+
+# https://dictionary.cambridge.org/dictionary/english/execute
+execute: kill someone as a legal punishment
+
+receive(what, from, to):
+  from do action:
+  to not do action:
+  to.what <-- from.what:
+
+# [so, consequence]
+so:
+
+# [activated, on]?
+
+# [way, path]?
+
+# [technique, method, approach, algorithm, procedure, anyway]
+
+# [would-incentiviser, would]
+
+
+# [route]
+# https://english.stackexchange.com/questions/274201/difference-route-path/274259
+
+
+# [make, build]
+make something physical
+
+# [create, construct, engineer, design]
+make somwthing intellectual
+
+# [need, condition]
+
+# [love]
+
+# [area]
+
+# [place]
+place - set of physical objects located at a specific position
+
+# [sorry]
+
+# [let]
+
+# [thing, object, system, judgement, assertion, proposition, concept, idea, notion, abstraction, anything]
+
+# [notion]
+vague concept
+
+# [probability, maybe, probably]
+
+# [man]
+
+# [has]
+
+# [quantity, much, many, amount]
+
+# [life]
+
+# [despite, antireason]
+system that could have precented it but did not
+
+# [disactivated, off]
+
+# [thank]
+
+# [give]
+
+# [help]
+
+# [talk]
+
+# [people]
+
+# [god]
+
+# [still]
+
+# [wait]
+
+# [find]
+
+# [call]
+
+# [night]
+
+# [believe]
+
+# [feel()]
+
+# [work]
+
+# english [home]
+
+# english [day]
+
+# english [keep]
+
+# english [put]
+
+# english [around]
+
+# english [stop]
+
+# english [guy]
+
+# english [listen]
+
+# english [size]
+
+# english [happen]
+
+# english [try]
+
+# english [kindness]
+
+# english [wrong, false]
+
+# english [through]
+
+# english [new]
+
+# english [being]
+
+# english [guess()]
+
+# english [care()]
+
+# english [bad]
+
+# english [mom, mother]
+
+# english [remember()]
+
+# english [dad]
+
+# english [leave()]
+
+# english [understand()]
+
+# english [hear()]
+
+# english [baby()]
+
+# english [father]
+
+# english [stay()]
+
+# english [done, finished]
+
+# https://dictionary.cambridge.org/dictionary/english/course
+# english [course]
+
+# english [mind]
+
+# english [try()]
+
+# english [hell]
+
+# english [owner]
+
+# english [family]
+
+# english [fraction]
+
+# english [house]
+
+# english [ask()]
+
+# english [old]
+
+# english [woman]
+
+# english [which, condition]
+
+# english [year]
+
+# english [room]
+
+# english [money]
+
+# english [son]
+
+# english [hope]
+
+# english [name, identificator]
+
+# english [happy]
+
+# english [pretty, beautiful]
+
+# english [girl]
+
+# english [show()]
+
+# english [friend]
+
+# english [next]
+
+# english [job]
+
+# english [problem]
+
+# english [minute]
+
+# english [world]
+
+# english [honey]
+
+# english [matter()]
+
+# english [precision]
+
+# english [hurt()]
+
+# english [boy]
+
+# english [dead]
+
+# english [alone]
+
+# english [period]
+
+# https://dictionary.cambridge.org/dictionary/english/forgive
+# https://dictionary.cambridge.org/dictionary/english/excuse?q=Excuse]
+# english [forgive()]
+
+# english [excuse()]
+
+hierarchy(third-party-concepts):
+  s:
+    - https://en.wikipedia.org/wiki/Mathematical_model [+]
+    - https://dictionary.cambridge.org/dictionary/english-russian/hierarchy [+]
+  names:
+    - mathematical-model
+  concept:
+    quantity: 1+
+  structure:
+    s:
+      - https://en.wikipedia.org/wiki/Structure
+      - https://en.wikipedia.org/wiki/Layout
+      - https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)
+      - https://design4users.com/wireframing-vs-prototyping-specify-ux-terms/
+    names:
+      - layout
+      - structure
+      - schema
+      - scheme
+      - architecture
+      - organization
+      - wireframe
+    relation(concept, concept, third-party-concepts):
+      quantity: 1+
+
+though-process:
+  is chemical-reaction:
+    quantity: 1+
+    position: brain
+
+reason(B):
+  information:
+    changing-though-process:
+      move(though-process, action-memory-snippet):
+        when though-process goal is B:
+
+relation(concept-1, concept-2):
+  info source(_) algorithm-1: >
+    for(concept-1 state changing : changing-x) {
+      if: concept-1 state changing-x reason concept-2
+    }
+
+event:
+  set of concepts in different points in time
+
+relation(concept-1, concept-2, new-concept-3):
+  information theme:
+    event:
+      participant: concept-1
+      consequence:
+        concept-2 change:
+        concept change:
+    event:
+      participant: concept-2
+      consequence:
+        concept-1 change:
+        concept change:
+
+perception:
+  system data += data:
+grouping: information
+simulating and memorizing: reason
+
+simulating:
+  mind memory: += data
+
+source(info-1):
+  A memory += info-1:
+    reason: source
+
+summary(concepts):
+  info:
+    theme: concepts
+
+algorithm:
+  set of instructions:
+
+instruction:
+  info:
+    action:
+      condition:
+        quantity: 1+
+      quantity: 1+
+    change:
+      when: consumed
+      whom system:
+        quantity: 1+
+        change execute action:
+          when:
