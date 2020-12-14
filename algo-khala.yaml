@@ -1,0 +1,29 @@
+material-implication - algortihm order of execution
+material-equivalence - =
+negation
+
+(
+)
+!
+==
+=
+&&
+||
+<-
+->
+
+if
+elif
+else
+
+do
+while
+until
+for(part_x in compound_y)
+
+switch
+case
+default
+
+break
+continue

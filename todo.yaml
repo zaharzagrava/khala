@@ -1,0 +1,125 @@
+frequency-lists-processing:
+  # english [start, beginning]
+  # english [start()]
+  # english [kill()]
+
+  # english [weght]
+  # english [complexity]
+  # english [car]
+  # english [ready, prepared]
+  # english [hold()]
+  # english [deal]
+  # english [morning]
+  # english [suppose()]
+  # english [head]
+  # english [stuff, substance]
+  # english [use()]
+  # english [worry()]
+  # english [second]
+  # english [live()]
+  # english [school]
+  # english [face]
+  # english [forget()]
+  # english [business]
+  # english [wife]
+  # english [run]
+  # english [person]
+  # english [heart]
+  # english [soul, psyche, mind]
+  # english [miss]
+  # english [missus]
+  # english [spouse, married]
+  # english [point]
+  # english [meet]
+  # english [phone]
+  # english [lost]
+  # english [bring]
+  # english [case, situation, state]
+  # english [case, law-case]
+  # english [turn()]
+  # english [turn-around()]
+  # english [turn-mecha()]
+  # english [turn]
+  # english [wish()]
+  # english [kid, child]
+  # english [trust]
+  # english [check, find-out]
+  # english [check, ensure]
+  # english [check, check-service]
+  # english [check, comply]
+  # english [change]
+  # english [end, final]
+  # english [late]
+  # english [town]
+  # english [brother]
+  # english [play()]
+  # english [hate()]
+  # english [beautiful]
+  # english [attractive]
+  # english [crazy]
+  # english [party]
+  # english [sit]
+  # english [open]
+  # english [afraid]
+  # english [important]
+  # english [rest]
+  # english [fun]
+  # english [word]
+  # english [watch]
+  # english [glad]
+  # english [sister]
+  # english [bit, horse-bit]
+  # english [bit, drill-bit]
+  # english [piece-bit]
+  # english [couple]
+  # english [feeling]
+  # english [daughter]
+  # english [break]
+  # english [promise]
+  # english [door]
+
+words:
+  # english [newborn, neonate]
+  # english [infant, baby]
+  # english [encompass, include, contain]
+  # english [has, possess, own]
+  https://dictionary.cambridge.org/dictionary/english/attach
+  https://dictionary.cambridge.org/dictionary/english/perceive
+  https://dictionary.cambridge.org/dictionary/english/evaluate
+  https://dictionary.cambridge.org/dictionary/english/return
+  https://dictionary.cambridge.org/dictionary/english/generate
+  https://dictionary.cambridge.org/dictionary/english/change
+
+  aggregation
+  derivation
+  relation
+  compound
+  quality
+  theory
+  statement
+  perceive
+  group
+
+wiki pages: rule of inference
+  first-order logic
+  Logic
+  Formal system
+  Costructivism (philosophy of mathematics)
+  Validity (logic)
+  Propositional calculus
+  Rule of inference
+  Logical form
+  Syntax (logic)
+  Syntax (logic)
+  Logical form
+  Metalogic
+  Metatheory
+  Contradiction
+  Open Data Description Language
+  https://plato.stanford.edu/entries/logical-form/
+
+Britannica: Formal system
+  Metalogic
+
+google pages: First-order logic in Artificial Intelligence
+  https://math.stackexchange.com/questions/16917/formal-system-and-formal-logical-system

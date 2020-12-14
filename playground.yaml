@@ -1,0 +1,194 @@
+do - be executor of action
+be
+has - be owner of thing
+
+doing(executor_0, actions_0):
+
+executor_0:
+  be executor(actions_0):
+
+executor(actions_0):
+
+event:
+  is whole:
+    element:
+      quantity: 1+
+      and their changes over time
+
+if:
+  car is blue-coloured
+
+if(
+   car is:
+   blue-coloured
+   or
+   red-coloured
+   tree size >= 10 meters
+   ):
+    cutting-tree:
+    taking-tree:
+    driving-tree:
+elif(
+     
+    ):
+
+---
+
+# something in use perceives the real world and returns data to us
+
+element = part
+compound = collection = concept = idea
+is is implemented with <-
+
+re = relation
+
+data:
+exist: if it exist im te document, it exist, it is tautology
+
+compound:
+part:
+
+is:
+re:
+
+# relate, generate-re, re
+# perceive
+# evaluate, if
+
+exist = generate knowledge = conclude
+
+data <- save() <- perceive()
+is <- save() <- copy()
+re <- save() <- conclude() <- evaluate() <- data
+
+# all that we know is that there is something that returns data to "us" and there
+# is something that processes this data through (theorize and evaluate)
+# this data is what we call the world, but what is the difference between world and data?
+
+# perceive can be defined by generate based on examples of similar objects to us
+
+generate(data): = data
+evaluate(logical-statement, t-conclusion, f-conclusion): = if
+
+# [to divide]
+divide(data_0):
+  for(index_x, data_x in set_1(data, number_1)):
+    data_0 part data_x:
+
+# [to combine, to group]
+combine(data_0):
+  for(index_x, data_x in set_1(data, number_1)):
+    data_1 compound data_x:
+
+# [to include]
+include(data_0, data_1):
+  data_0 part data_1:
+
+# [to theorize]
+theorize(logical-statement):
+  generate(logical-statement):
+
+# [to relate]
+relate(data_0, data_1):
+  evaluate(...):
+    for(index_x, change_x in set_1(change, number_1)):
+      logical-statement:
+        data_0 change_x => data_1 change_y:
+      t-conclusion:
+        data_0 re_x data_1:
+
+# [to attach] to include something physical
+
+is(< concept_0, >* set concepts_0):
+  for(concept_x in set concepts_0):
+    concept_0 <- concept_x
+
+include():
+  data_0 re part
+
+compound(<< data_0, >* data_set_0):
+  
+part(<< data_0, >* data_set_0):
+  for(concept_0 in data_set_0):
+    and:
+      concept_0 exist:
+      concept_0 !re part data:
+    then:
+      data_0 re part data_set_0:
+
+data name = alpha if:
+
+set(concept_0, >re compound>* compound_0):
+  for(index_x, concept_x in compound_0):
+    concept_x:
+      re compound index index_x:
+      re part is concept_0:
+
+weaponary:
+  re compound:
+    set(weapon):
+      re part:
+        # assertions
+        is compound:
+        # aggregations
+        for-all weapon-set >*:
+          re part:
+           quality-value: 10/10
+        quality-value:
+        # techniques
+        # concepts
+      re compound:
+        weapon_0:
+        weapon_1:
+        weapon_2:
+        weapon_3:
+
+re(-> relation):
+re - relates to other object as
+
+car:
+  <- aurotransport:
+  <- machine:
+  re compound:
+    # techniques
+    doing-beta:
+    doing-gamma:
+    # concepts
+  re part:
+
+spidey-fights-bgs:
+  is compositor for:
+    bad_guy_0:
+    bad_guy_1:
+    bad_guy_2:
+    spiderman:
+
+event:
+  is compositor for:
+    concept:
+      quantity: 1+
+
+---
+taking(thing_0, thing_1, place_0):
+
+datetime_0 is datetime:
+datetime_0 < datetime_1:
+
+datetime_set_1 is set datetime:
+datetime_set_1 < datetime_2:
+
+datetime_2 is datetime:
+datetime_2 < datetime_3:
+
+thing_1:
+  not possessing(thing_0):
+  datetime: datetime_0
+
+thing_1:
+  acting: set acting 
+  datetime: datetime_set_1
+
+thing_1:
+  possessing(thing_0):
+  datetime: datetime_2
+---
