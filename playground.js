@@ -1,99 +1,86 @@
-const deepDiffMapper = (function () {
-  return {
-    VALUE_CREATED: "created",
-    VALUE_UPDATED: "updated",
-    VALUE_DELETED: "deleted",
-    VALUE_UNCHANGED: "unchanged",
-    map: function (obj1, obj2) {
-      console.log("@objects");
-      console.log({ obj1, obj2 });
+// +
+function difference(obj1, obj2) {
+  const diff = {};
+  for (const key in obj1) {
+    const value1 = obj1[key];
+    const value2 = obj2[key] === undefined ? null : obj2[key];
 
-      if (this.isValue(obj1) || this.isValue(obj2)) {
-        return {
-          type: this.compareValues(obj1, obj2),
-          data: obj2,
-        };
-      }
+    if (isConcept(value1) || isConcept(value2)) {
+      diff[key] = {
+        type: isEqual(value1, value2),
+        data: value2
+      };
+    } else {
+      diff[key] = difference(value1, value2);
+    }
+  }
 
-      const diff = {};
-      for (const key in obj1) {
-        const value1 = obj1[key];
-        const value2 = key !== undefined && obj2[key];
+  for (const key in obj2) {
+    if (diff[key] !== undefined) continue;
 
-        console.log("@values");
-        console.log({ value1, value2 });
+    diff[key] = {
+      type: isEqual(null, obj2[key]),
+      data: obj2[key]
+    };
+  }
 
-        diff[key] = this.map(value1, value2);
+  return diff;
+}
 
-        console.log("@diff");
-        console.log(JSON.stringify(diff, undefined, 2));
-      }
+// +
+function isConcept(data) {
+  return data === null || Object.prototype.toString.call(data) !== '[object Object]';
+}
 
-      for (const key in obj2) {
-        if (diff[key] !== undefined) continue;
+function isEqual(primitive0, primitive1) {
+  if (primitive0 === primitive1) {
+    return 'unchanged';
+  }
+  if (primitive0 === null) {
+    return 'created';
+  }
+  if (primitive1 === null) {
+    return 'deleted';
+  }
 
-        const value2 = obj2[key];
+  return 'updated';
+}
 
-        diff[key] = this.map(undefined, value2);
-      }
-
-      return diff;
-    },
-
-    compareValues: function (value1, value2) {
-      if (value1 === value2) {
-        return this.VALUE_UNCHANGED;
-      }
-      if (value1 === undefined) {
-        return this.VALUE_CREATED;
-      }
-      if (value2 === undefined) {
-        return this.VALUE_DELETED;
-      }
-
-      return this.VALUE_UPDATED;
-    },
-    isValue: function (x) {
-      return (
-        !Object.prototype.toString.call(x) === "[object Object]" &&
-        !Object.prototype.toString.call(x) === "[object Array]"
-      );
-    },
-  };
-})();
-
-var result = deepDiffMapper.map(
+var result = difference(
   {
-    f: [
-      1,
-      {
-        a: "same",
-        b: [
-          {
-            a: "same",
+    f: {
+      1: null,
+      2: {
+        a: 'same',
+        b: {
+          0: {
+            a: 'same'
           },
-          {
-            d: "delete",
-          },
-        ],
-      },
-    ],
+          1: {
+            d: 'delete'
+          }
+        }
+      }
+    }
   },
   {
-    f: [
-      {
-        a: "same",
-        b: [
-          {
-            a: "same",
+    g: {
+      a: 'new'
+    },
+    f: {
+      1: null,
+      2: {
+        a: 'same',
+        b: {
+          0: {
+            a: 'changed'
           },
-          {
-            c: "create",
-          },
-        ],
-      },
-      1,
-    ],
+          1: {
+            d: 'delete'
+          }
+        }
+      }
+    }
   }
 );
 

@@ -30,12 +30,34 @@ thing_1:
 
 evaluate(logical-statement, t-conclusion, f-conclusion): = if
 
+difference(data_0, data_1):
+  if(data_0 = data_1) <- null
+  if(data_0 = null) <- 'created'
+  if(data_1 = null) <- 'created'
+  
+  <- 'updated'
+
 difference(concept_0, concept_1):
-  for(id_0, data_0 in concept_0):
-    if(exist(concept_1 part [id_0])):
-      
-    else():
-      
+  difference
+  for(id_0 in concept_0):
+    data_0 <- concept_0[id_0]
+    data_1 <- concept_1[id_0]
+
+    if(data_0 is concept || data_1 is concept):
+      difference part [id_0] <-
+        type: difference(data_0, data_1)
+        data: data_1
+    else:
+      difference part [id_0] <- difference(data_0, data_1)
+  
+  for(id_0 in concept_1):
+    if (difference part [id_0] != null): continue
+
+    difference part [id_0] <-
+      type: difference(null, concept_1 part [id_0])
+      data: data_1
+
+  <- difference
 
 equal:
   compound:
@@ -70,9 +92,7 @@ change(
     datetime:
       datetime_1 > datetime_0
   ):
-  
-
-  
+    <- difference(concept_0, concept_1)
 
 pattern:
   part:
