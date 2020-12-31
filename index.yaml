@@ -468,3 +468,29 @@ instruction:
         quantity: 1+
         change execute action:
           when:
+
+### unordered ###
+
+# en [two-edged, double-edged]
+# ru [обоюдоострый]
+# ua [двосічний]
+# http://sum.in.ua/s/dvosichnyj
+definition: 
+
+# en [-]
+# ru [двоякий]
+# ua [двоякий]
+# http://sum.in.ua/s/dvojakyj
+definition: Двоякий - system that exists in two forms
+
+# en [twofold]
+# ru [-]
+# ua [-]
+# https://dictionary.cambridge.org/dictionary/english/twofold
+definition: Twofold - system that has two parts
+
+en [two-faced, hypocritical]
+ru [двуликий]
+ua [дволикий, дволичний, лицемірний, дволиций]
+# https://dictionary.cambridge.org/dictionary/english/twofold
+definition:
